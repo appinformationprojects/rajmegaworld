@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Login Screen</title>
+    <link rel="stylesheet" href="./styles/Login.css">
+</head>
+
+<body>
+
+   
+    <div class="container">
+        <header class="header">
+            <h1>
+                Login the App
+            </h1>
+        </header>
+        <form action="index.php" id="Web-2">
+            <div class="alert"> Email is Saved </div>
+
+            <div class="inputBox">
+                <input type="email" id="email" placeholder="Enter Email...." name="email"/>
+            </div>
+
+            <div class="inputBox">
+                <input type="password" id="emailid" placeholder="Enter Password....." name="password"/>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="msgContent" cols="30" rows="10" placeholder="Enter UserName....." name="user"/>
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Login</button>
+            </div>
+ 
+            <a href="./CreateAccount.html" class="createaccount">Create Account</a>
+
+        </form>
+        
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="../backend/js files/Login.js"></script>
+   
+</body>
+
+</html>
